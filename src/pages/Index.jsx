@@ -1,7 +1,13 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+
 function Index() {
   return (
     <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
-      {/* Update with components here - default to put new layout sections as separate components in the components folder, and import them here */}
+      
       <section className="text-center py-20 bg-gray-100">
         <h1 className="text-5xl font-bold mb-4">Welcome to SaaS Inc</h1>
         <p className="text-xl mb-8">Your solution for managing your business efficiently.</p>
